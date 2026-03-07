@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(128, 0, 73);
+        height: 50px;
+        width: 100vw;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        hr{
+            margin: 10px;
+        }
+        div{
+            background-color: rgb(147, 129, 212);
+            width: 100px;
+            height: 50px;
+            display: flex;
+            margin: 20px;
+        }
+        div>p{
+            margin: auto;
+        }
+        #a{
+            background-color: rgb(147, 129, 212);
+            width: 100%;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+        .card{
+            width: 320px;
+            padding: 24px;
+            border: 2px solid #cbd5f5;
+            margin-bottom: 24px;
+            font-family: "Inter",sans-serif;
+        }
+        .callout {
+            margin: 32px 0;
+            padding: 16px;
+            border-left: 6px solid #2563eb;
+            background: #eff6ff;
+        } 
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <nav>
+        <h1><span><center>Navigation</center></span></h1>
+        <div id="nav2">
+            <a href=""><i class="fa-solid fa-house"></i></a>
+            <a href="01mar.html">About</a>
+            <a href="02mar.html">Contact</a>
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+    <hr>
+    <h1>
+        <center>Welcome to CSS</center>
+    </h1>
+    <ul type="square">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <hr>
+    <h1>
+        <center>About</center>
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae omnis cumque placeat excepturi voluptatem cum sequi nam temporibus, ex explicabo tempora delectus quos nisi, maiores nobis aliquid, itaque labore eligendi?</p>
+    <hr>
+    <div><p>hello</p>
+       
+    </div>
+    <div id="a">
+        <iframe src="https://ums.mydsi.org/Login.aspx" frameborder="100px"></iframe>
+    </div>
+    
+    <article class="card">
+        <h2>Box Model</h2>
+        <p>Includes padding, border, and margin.</p>
+    </article>
+    <aside class="callout">
+        <strong>Tip:</strong>Use border-box to simplify layout calculations.
+    </aside>
+</body>
+</html>
