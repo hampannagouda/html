@@ -1,0 +1,31 @@
+h3{
+    color: chocolate;
+    background: #000;
+}
+center{
+    color: cornflowerblue;
+}
+#demo{
+    color: goldenrod;
+}
+
+*{
+    color: aqua;
+    background-color: aqua;
+} 
+
+header h1{
+            color: blueviolet;
+        }
+header>article>h3{
+    color: yellow;
+}
+
+
+header~p{
+    color: skyblue;
+}
+ header+p{
+        color:tomato
+}
+

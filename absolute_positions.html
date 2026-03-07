@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <style>
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+        h1{
+            text-align: center;
+            background-color: lightcoral;
+            border-radius: 20ex;
+            text-transform: uppercase;
+        }
+        body>div{
+            height: 600px;
+            background-color: rgb(230, 173, 221);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border: 5px solid black;
+        }
+        div>div:nth-child(1){
+            width: 100px;
+            height: 100px;
+            background-color: rgb(158, 128, 240);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border: 2px solid black;
+            top: 100px;
+            left: 50px;
+
+        }
+        div>div:nth-child(2){
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border: 2px solid black;
+            position: absolute;
+            top: 0px;
+            left: 100px;
+        }
+        div>div:nth-child(3){
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            border: 2px solid black;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+        div>div:nth-child(4){
+            width: 100px;
+            height: 100px;
+            background-color: rgb(186, 230, 173);
+            border: 2px solid black;
+            position: sticky;
+            top: 100px;
+            left: 100px;
+        }
+        div>div:nth-child(5){
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            position: static;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>css positions</h1>
+    <hr>
+    <div>
+        <div>relative</div>
+        <div>absolute</div>
+        <div>fixed</div>
+        <div>sticky</div>
+        <div>static</div>
+    </div>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, explicabo. Asperiores optio quos dolorum alias numquam! Veniam debitis magni sint incidunt necessitatibus accusamus repellendus sed modi laborum quidem, deleniti odio!</h2>
+</body>
+</html>

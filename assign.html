@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="Screenshot 2026-02-05 093850.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h1 color="blue"><center><u style="color: burlywood;">STUDENT REGISTRATION FORM</u></center></h1>
+    <form action="">
+        <fieldset>
+            <table bgcolor="blue" style="color: white;" cellspacing="50" cellpadding="5" border="10" align="center">
+                <tr >
+                    <td><label for="fname"></label>FIRST NAME</td>
+                    <td><input type="text" name="firstName"  id="fname" ></td>
+                    <td>(max 30 charecters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">DATE OF BIRTH</label>
+                    </td>
+                    <td>
+                        <input type="date" name="dob" id="dob" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">GENDER</label>
+                       
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male" required>
+                        <label for="male">MALE</label>
+                        <input type="radio" name="gender" id="female" value="female" required>
+                        <label for="female">FEMALE</label>
+                        <input type="radio" name="gender" id="other" value="other" required>
+                        <label for="other">OTHER</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td>
+                        <select name="qualification" id="qualification" required>
+                            <option value="">--SELECT--</option>
+                            <option value="10th">10th</option>
+                            <option value="12th">12th</option>
+                            <option value="degree">DEGREE</option>
+                            <option value="masters">MASTERS</option>
+                        </select>                       
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

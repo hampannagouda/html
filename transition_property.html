@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition properties</title>
+    <style>
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px orange;
+        }
+        body{
+            background-image: linear-gradient(to top right,);
+
+        }
+        body>div:nth-child(3){
+            height: 500px;
+            width: 500px;
+            background-color: blanchedalmond;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+        body>div:nth-child(3)>button{
+
+            padding: 10px 50px;
+            position: absolute;
+            right: 170px;top: 250px;
+            /* transition-property: background-color,color;
+            transition-duration: 5s 7s;
+            transition-timing-function: linear,linear;
+            transition-delay: 1s , 1s; */
+            /* transition: background-color 5s linear 0s,color 5s linear 0s; */
+            transition:all 5s linear 0s ;
+        }
+        body>div:nth-child(3)>button:hover{
+            background-color: black;
+            color: aliceblue;
+            cursor: pointer;
+            padding: 20px 100 px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Transition in css</h1>
+    <hr>
+    <div>
+        <button>Register</button>
+    </div>
+    
+</body>
+</html>

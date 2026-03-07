@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+        hr{
+            height: 10px;
+            background-color: slategray;
+        }
+        p::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+        p::first-line{
+            color: blue;
+        }
+        p::after{
+            content: "😁";
+        }
+        p::before{
+            content: "❤️";
+        }
+        p::selection{
+            background-color: aqua;
+            color: violet;
+        }
+        p::marker{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <center>Selectors</center>
+    </h1>
+    <h3>
+        <ol>
+            <li>Simple Selectors</li>
+            <li>Combinator </li>
+            <li>Pseudo class</li>
+            <li>Pseudo elements</li>
+            <li>Attributer selectors</li>
+        </ol>
+    </h3>
+    <h1><center>1. Simple Selectors</center></h3>
+        <h3><center>Their are Five</center> </h3>
+        <ol type="1" ><li>ID</li>
+        <li>Class</li>
+        <li>TagNmae</li>
+        <li>Grouping</li>
+        <li>Universal</li></ul>
+        <table></table>
+    <h3>id selector</h6>
+    <p id="demo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus numquam provident dignissimos corporis, ullam illum eligendi, quo magnam, nulla officiis iste reiciendis. Esse eaque praesentium voluptatum ullam dicta. Incidunt, rerum!</p>
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sit dignissimos animi atque delectus sapiente rem cum reiciendis facilis in! Perspiciatis, modi voluptate rerum iusto reiciendis at placeat nemo sint.</p>
+    <h3>class selector</h6>
+    <p class="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id, reprehenderit, deleniti aperiam earum adipisci nesciunt dicta deserunt maxime sed ab hic libero ipsam veritatis nemo consectetur modi, eum ducimus.</p>
+    <p class="demo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam perspiciatis enim suscipit officia, eius quae odit natus iste culpa, et inventore iure distinctio deleniti sint. Repellendus nulla nam aliquam obcaecati?</p>
+    <h3>tagname selectors</h6>
+    <h3>grouping selectors</h6>
+    <h3>universal selectors</h6>
+        
+        <ol start="2">
+          <h1>  <center><li >Combinator </li></h1></center>
+          <ol>
+            <li>Descendant Selector</li>
+            <p></p>
+            <hr>
+            <li>child selector</li>
+            <p>it is used to target only the direct children to the parent element</p>
+            <p>symbol = '>'</p>
+            <hr>
+            <li>adjacent selector</li>
+            <p>it is used to target the html element which is adjacent to the parent element</p>
+            <p>symbol = '+'</p>
+            <hr>
+            <li>general sibling selector</li>
+            <p>it is used to target html element which are comes after parent</p>
+            <p>symbol = '~'</p>
+          </ol>
+           <h1><li>Pseudo class</li></h1>
+            <ol>
+                <p>pseudo elements are the selectors which are used to target the specific part of the html element</p>
+                <ul><li><p>types of  pseudo elements</p></li></ul>
+                <li>First-letter</li>
+                <li>First-line</li>
+                <li>After</li>
+                <li>Before</li>
+                <li>Marker</li>
+                <li>Selection</li> 
+                <p>example</p> <p><span style="color: yellowgreen;font-size: 25px">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit perferendis doloremque neque corporis sequi repudiandae quos maiores ab sapiente. Nulla?</p>
+
+            </ol>
+            <h1><li>Pseudo elements</li></h1>
+            <h1><li>Attributer selectors</li></h1>
+        </ol>
+       
+
+
+   
+        <!-- <header>
+            <h2>header child h2 </h2>
+            <h1>header child h1</h1>
+            <h2>header child h1</h1>
+            
+            <article>
+                <h3>header child article child h3</h3>
+                <p>header child article child p </p>
+            </article>
+            
+        </header>
+        <p>header sibling p</p>
+        <p>header sibling pp</p>
+        <div>
+            
+        </div> -->
+<hr>
+        <div><center> <h1>Background Properties</h1></center>
+            <ol><li>Background-Color</li>
+            <li>Background-Image</li>
+            <li>Background-Repeat</li>
+
+            <li>Background-Size</li>
+            <li>Background-Attachment</li>
+            <li>background-position</li></ol>
+        </div>
+        <div>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores suscipit doloremque aperiam est accusamus cupiditate atque molestias ut, perspiciatis mollitia possimus facilis dicta laudantium asperiores magni distinctio nesciunt quasi harum.</span><span>Eius fugiat obcaecati magni ipsum, odio nostrum. Vero rem officia mollitia amet, cum nihil saepe veritatis. Enim optio vel laborum dolorum aperiam dolor excepturi quasi, vitae pariatur perferendis inventore quam!</span><span>Consequuntur ipsa beatae quisquam totam laudantium accusantium, nulla veniam soluta quasi odit, inventore officiis cumque ullam voluptatum harum a quam vero non aliquid incidunt voluptatem. Sunt rerum earum debitis porro.</span></p>
+        </div>
+      
+    </body>
+</html>
