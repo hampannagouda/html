@@ -3,21 +3,21 @@ body{
     background-size: 100% 100%;
     background-attachment: fixed;
     background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/70/04/76/kumaraswamy-temple.jpg?w=600&h=600&s=1");
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 h1{
     text-align: center;
 }
 div{
-    width: 50%;
-    margin: auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    margin: 0%;
+    background-color: gold;
+    padding: 50px;
+    border-radius: 50%;
     background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/70/04/76/kumaraswamy-temple.jpg?w=600&h=600&s=1");
     background-repeat: no-repeat;
-    background-size: 100px 100px;
+    background-size: cover;
     background-position: center;
 }
 
