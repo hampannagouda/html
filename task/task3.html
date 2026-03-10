@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+        body{
+            background-image: url("https://media.istockphoto.com/photos/suburb-asphalt-road-and-green-field-picture-id612654188?k=6&m=612654188&s=612x612&w=0&h=_FnGj4NeZivCM08FEijgDotUTT6aLRXlCH2DooMteA8=");
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            color: brown;
+        }
+
+        body>div:nth-child(2){
+            height: 200px;
+            width: 470px;
+            background-image: url("https://tse2.mm.bing.net/th/id/OIP.3BnpuUo3Lrwh_-t2I9VjKgHaDl?rs=1&pid=ImgDetMain&o=7&rm=3");
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 10px;
+            bottom: 100px;
+            animation-name:car;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+            animation-iteration-count: 5;
+            animation-direction: alternate;
+        }
+        body>div:nth-child(3){
+            height :500px;
+            width: 500px;
+            background-image: url("https://tse4.mm.bing.net/th/id/OIP.Vk4kCFetvXr1rMg3Gn3p2wHaHa?pid=ImgDet&w=187&h=187&c=7&dpr=1.3&o=7&rm=3");
+            background-repeat: no-repeat;
+            left: 10px;
+            top: 100px;
+            position: relative;
+            animation-name: birds;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+            animation-iteration-count: 5;
+            animation-direction: alternate;
+        }
+
+        @keyframes car {
+            0%{
+                left: 10px;
+            }
+
+            100%{
+            left: 900px;
+            }
+        }
+        @keyframes birds {
+            0%{
+                left: 10px;
+                top: 10px;
+            }
+            100%{
+                top: 100px;
+                left: 1000px;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Animations using CSS</h1>
+    <div>
+
+    </div>    
+    <div>
+
+    </div>
+</body>
+</html>
