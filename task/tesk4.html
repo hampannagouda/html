@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation title</title>
+    <style>
+        span::after{
+            content: "software developer";
+            animation: change 6s linear 0s infinite;
+            text-shadow: 2px 2px 2px black;
+        }
+        @keyframes change{
+            0%{
+                content: "software developer";
+                color: red;
+            }
+            25%{
+                content: "web developer";
+                color: blue;
+            }
+            50%{
+                content: "mobile developer";
+                color: green;
+            }
+            75%{
+                content: "frontend developer";
+                color: yellow;
+            }
+            100%{
+                content: "backend developer";
+                color: purple;
+            }
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: goldenrod;
+            position: relative;
+            left: 100px;
+            top: 200px;
+            animation: button 3s linear 1s infinite;
+            animation-direction: alternate;
+        }
+        @keyframes button {
+            0%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(1.5);
+            }
+            100%{
+                transform: scale(2);
+            }
+        }
+        h2{
+            opacity: 0;
+            animation: h2 1s linear 0s infinite;
+            animation-direction: alternate;
+        }
+        @keyframes h2 {
+            0%{
+                opacity: 0;
+            }
+            25%{
+                opacity: 0.5;
+            }
+            50%{
+                opacity: 1;
+            }
+            75%{
+                opacity: 0.5;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>i am <span></span></h1>
+    <button>click me</button>
+    <h2>full stack developer</h2>
+</body>
+</html>
