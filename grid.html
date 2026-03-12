@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+    body{
+        background-color: lightgoldenrodyellow;
+    }
+    main{
+        padding: 20px 20px 20px 20px;
+        background-color: lightgreen;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 40px 300px 80px 80px 40px;
+        /* justify-content: space-around; */
+        justify-content: center;
+        /* row-gap: 10px;
+        column-gap: 5px; */
+        gap: 10px 5px;
+        border-radius: 10px;
+    }
+    main>div{
+        text-align: center;
+        padding-top: 10px;
+        background-color: yellow;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    main>div:nth-child(1){
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    main>div:nth-child(2){
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    main>div:nth-child(3){
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    main>div:nth-child(4){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    main>div:nth-child(5){
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    main>div:nth-child(6){
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    main>div:nth-child(7){
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    main>div:nth-child(8){
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    </style>
+</head>
+<body>
+    <!-- main>div{grid-items$}*8 -->
+    <Main>
+        <div>grid-items1</div>
+        <div>grid-items2</div>
+        <div>grid-items3</div>
+        <div>grid-items4</div>
+        <div>grid-items5</div>
+        <div>grid-items6</div>
+        <div>grid-items7</div>
+        <div>grid-items8</div>
+    </Main>
+</body>
+</html>

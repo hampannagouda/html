@@ -3,7 +3,7 @@ body{
     background-size: 100% 100%;
     background-attachment: fixed;
     background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/70/04/76/kumaraswamy-temple.jpg?w=600&h=600&s=1");
-    /* background-color: lightblue; */
+    background-color: lightblue;
 }
 h1{
     text-align: center;
@@ -19,5 +19,6 @@ div{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
 }
 
